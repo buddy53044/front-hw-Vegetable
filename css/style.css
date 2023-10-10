@@ -1,0 +1,313 @@
+/* body {
+    background-color: #EDF2C5;
+} */
+*{
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+.VegetableLayout{
+    margin: 10px 10px;
+    width: 1440px;
+    height: 1024px;
+
+    padding-left: 160px;
+    padding-top: 36px;
+
+    position: relative;
+    background-color: #EDF2C5;
+
+}
+
+/* .container{
+    width: 1120px;
+    max-height: 681px;
+    left: 160px;
+    top: 36px;
+    position: absolute;
+
+} */
+
+.header{
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+#veg {
+    font-size: 44px;
+    line-height: normal;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bolder;
+    color: #778A50;
+    position: relative;
+    box-sizing: content-box;
+
+}
+.BtnGroup{
+    width: 208px;
+    height: 24px;
+    left: 914px;
+    top: 25px;    
+    position: absolute;
+
+}
+.BtnFacebook{
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    position: absolute"
+}
+.BtnInstagram{
+    width: 24px;
+    height: 24px;
+    left: 36px;
+    top: 0px;
+    position: absolute"
+}
+
+.BtnLoginBox{
+    padding: 4px 8px;
+    left: 83px;
+    top: 0px;
+    position: absolute;
+    border-radius: 3px; 
+    overflow: hidden; 
+    border: 1px #778A50 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+
+}
+
+.login_join{
+    color: #778A50; 
+    font-size: 14px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.BtnjoinBox{
+    padding: 4px 8px;
+    left: 159px;
+    top: 0px;
+    position: absolute;
+    border-radius: 3px; 
+    overflow: hidden; 
+    border: 1px #778A50 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
+
+.Line{
+    width: 24px;
+    height: 0px;
+    left: 72px;
+    top: 0px;
+    position: absolute; 
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    border: 1px #778A50 solid ;
+}
+
+.nav_list{
+    width: 1120px;
+    height: 44px;
+    border-radius: 3px;
+    background:  #778A50;
+}
+
+.nav_list_ul{
+    margin-top: 10px;
+    display: flex;
+    /* margin-left: 30px; */
+
+}
+
+.nav_list_li{
+    list-style: none;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+}
+
+.nav_list_li_link{
+    text-decoration: none;
+    display: block;
+    color:#EDF2C5;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    margin-left: 15px;
+    margin-right: 2px;
+}
+
+/* .Body{
+    width: 1120px;
+    height: 681px; 
+    left: 160px; 
+    top: 166px; 
+    position: absolute;
+} */
+
+
+.ImgMainPumpkin{
+    width: 1120px; 
+    height: 448px; 
+    left: 0px; 
+    top: 16px; 
+    position: relative;
+}
+
+.BoxVegetables{
+    width: 528px; 
+    height: 201px; 
+    left: 160px; 
+    top: 646px; 
+    position: absolute;
+}
+
+.BoxVegetablesTitle{
+    width: 528px; 
+    height: 45px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #778A50; 
+    border-radius: 3px; 
+    overflow: hidden;
+}
+
+.Vegetables{
+    left: 30px; 
+    top: 10px; 
+    position: absolute; 
+    color: #EDF2C5; 
+    font-size: 16px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.ImgOtherGroup{
+    width: 528px; 
+    height: 140px; 
+    left: 0px; 
+    top: 61px; 
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.BoxContact{
+    width: 528px; 
+    height: 201px; 
+    left: 752px; 
+    top: 646px; 
+    position: absolute;
+}
+
+.BoxContactTitle{
+    width: 528px; 
+    height: 45px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #778A50; 
+    border-radius: 3px; 
+    overflow: hidden;
+}
+
+.Contact{
+    left: 30px; 
+    top: 10px; 
+    position: absolute; 
+    color: #EDF2C5; 
+    font-size: 16px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.BoxContactText{
+    width: 528px; 
+    height: 140px; 
+    left: 0px; 
+    top: 61px; 
+    position: absolute;
+    background: #F7FBDA;
+}
+
+.Contact1{
+    width: 496px; 
+    left: 16px; 
+    top: 16px;
+    position: absolute; 
+    color: #7D7D7D; 
+    font-size: 12px; 
+    font-family: Arial; 
+    font-weight: 400; 
+    line-height: 18px; 
+    word-wrap: break-word;
+}
+
+.Line2{
+    width: 496px; 
+    height: 0px; 
+    left: 16px; 
+    top: 79px; 
+    position: absolute; 
+    border: 1px #7D7D7D solid;
+}
+
+.Contact2{
+    width: 496px; 
+    height: 36px; 
+    left: 16px; 
+    top: 88px; 
+    position: absolute; 
+    color: #7D7D7D; 
+    font-size: 12px; 
+    font-family: Arial; 
+    font-weight: 400; 
+    line-height: 18px; 
+    word-wrap: break-word;
+}
+
+
+
+
+.footer{
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 964px;
+    position: absolute;
+    background: #778A50;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+
+
+#footer_content{
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+    color: #EDF2C5;
+    top: 21px;
+    font-size: 12px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+}
